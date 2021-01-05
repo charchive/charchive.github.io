@@ -14,7 +14,6 @@ export default {
 
 <style scoped lang="scss">
 .bottom-note {
-  line-height: 8px;
   text-align:right;
   font-size: 12px;
 }
