@@ -1,11 +1,9 @@
 <template>
-  <el-menu
-    class="top-bar"
-    mode="horizontal"
-  >
-    <el-menu-group class="logo">
-        <img height="55px" src="@/assets/logo.svg">
-    </el-menu-group>
+  <el-menu class="top-bar" mode="horizontal" router>
+    <img class="logo" height="55px" src="@/assets/logo.svg" />
+
+    <el-menu-item class="dock-right" index="/about">About</el-menu-item>
+    <el-menu-item class="dock-right" index="/">Home</el-menu-item>
   </el-menu>
 </template>
 
@@ -15,12 +13,14 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 .top-bar {
   margin-bottom: 20px;
 }
 .logo {
-    outline: none;
+  outline: none;
+}
+.el-menu--horizontal > .el-menu-item.dock-right {
+  float: right;
 }
 </style>

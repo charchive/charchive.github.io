@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <template>
-      <div style="line-height: 10px">
+      <div class="note">
         <h4>Note:</h4>
         <p>如果无法直接点击磁力链接下载，请右键复制链接到下载器下载。</p>
         <p>
@@ -50,3 +50,9 @@ export default {
   },
 };
 </script>
+
+<style scoped lang="scss">
+.note {
+  line-height: 8px;
+}
+</style>
