@@ -52,7 +52,5 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.note {
-  line-height: 8px;
-}
+
 </style>
