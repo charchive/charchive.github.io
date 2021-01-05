@@ -16,6 +16,6 @@ export default {
 .bottom-note {
   line-height: 8px;
   text-align:right;
-  font-size: 8px;
+  font-size: 12px;
 }
 </style>
