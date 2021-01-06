@@ -2,7 +2,7 @@
   <div class="bottom-note">
     <el-divider></el-divider>
     <p>ZERONET: <u>1GZyMNsxWw2E6KZaqi8CjZWM5kC7uBJZQ8</u></p>
-    <p>TOR: <u>sscuhqr55zgb6eaiy2anu4ubr6ghp7mcflnqc5kopcxnfowzbn2hzwyd.onion</u></p>
+    <p>GITHUB PAGE: <u>https://charchive.github.io</u></p>
   </div>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-  <el-menu class="top-bar" mode="horizontal" router>
+  <el-menu class="top-bar" mode="horizontal" router :default-active="$route.path">
     <img class="logo" height="55px" src="@/assets/logo.svg" />
 
     <el-menu-item class="dock-right" index="/about">About</el-menu-item>
