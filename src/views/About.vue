@@ -19,6 +19,9 @@
 export default {
   name: "About",
 };
+
+let Base64 = require('js-base64').Base64
+console.info(Base64.decode('5oiR5omN5LiN5Lya5ZGK6K+J5L2g5oqK572R6aG16Lev5b6E5o2i5oiQIC9yMTgg5Y+v5Lul6L+b5YWl5LiN5Y+v5o+P6L+w55qE6aKG5Z+fdw=='));
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
